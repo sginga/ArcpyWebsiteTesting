@@ -1,0 +1,28 @@
+name: djangoenv
+channels:
+- !!python/unicode
+  'anaconda-fusion'
+- !!python/unicode
+  'defaults'
+dependencies:
+- !!python/unicode
+  'certifi=2016.2.28=py36_0'
+- !!python/unicode
+  'pip=9.0.1=py36_1'
+- !!python/unicode
+  'python=3.6.2=0'
+- !!python/unicode
+  'setuptools=36.4.0=py36_1'
+- !!python/unicode
+  'vc=14=0'
+- !!python/unicode
+  'vs2015_runtime=14.0.25420=0'
+- !!python/unicode
+  'wheel=0.29.0=py36_0'
+- !!python/unicode
+  'wincertstore=0.2=py36_0'
+- pip:
+  - django==2.0.6
+  - pytz==2018.4
+prefix: !!python/unicode 'C:\Users\Student\Anaconda2\envs\djangoenv'
+
